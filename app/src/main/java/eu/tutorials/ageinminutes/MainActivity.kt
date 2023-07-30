@@ -1,12 +1,10 @@
 package eu.tutorials.ageinminutes
 
 import android.app.DatePickerDialog
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -24,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     //function to show the date picker
-    fun clickDatePicker(){
+    private fun clickDatePicker(){
         /**
          * This Gets a calendar using the default time zone and locale.
          * The calender returned is based on the current time
