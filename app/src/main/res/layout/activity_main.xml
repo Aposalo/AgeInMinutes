@@ -55,12 +55,13 @@
         android:textColor="#844046"
         android:layout_marginTop="20dp"
         android:textSize="20sp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/lightGreyTextColor"
         android:text="Selected Date"
-        android:textSize="18sp"/>
+        android:textColor="@color/lightGreyTextColor"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvSelectedDateInMinutes"
